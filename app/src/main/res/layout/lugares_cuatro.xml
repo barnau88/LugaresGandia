@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="245dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal">
+
+            <LinearLayout
+                android:id="@+id/llColegiata"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="60dp">
+
+                <ImageButton
+                    android:id="@+id/ibColegiata"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/colegiata"
+                    android:onClick="irColegiata"/>
+
+                <TextView
+                    android:id="@+id/tvColegiata"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Colegiata"
+                    android:textSize="20dp"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/colorPrimaryDark"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llVital"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="60dp">
+
+                <ImageButton
+                    android:id="@+id/ibLaVital"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/vital"
+                    android:onClick="irVital"/>
+
+                <TextView
+                    android:id="@+id/tvLaVital"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="La Vital"
+                    android:textSize="20dp"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/colorPrimaryDark"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llCBayren"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="50dp"
+                android:layout_below="@+id/llColegiata">
+
+                <ImageButton
+                    android:id="@+id/ibCBayren"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/castillo_bayren"
+                    android:onClick="irBayren"/>
+
+                <TextView
+                    android:id="@+id/tvBayren"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Castillo Bayren"
+                    android:textSize="20dp"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/colorPrimaryDark"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llPalacio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="50dp"
+                android:layout_below="@+id/llVital">
+
+                <ImageButton
+                    android:id="@+id/ibPalacio"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/palacio_ducal_gandia"
+                    android:onClick="irPalacio"/>
+
+                <TextView
+                    android:id="@+id/tvPalacio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Palacio"
+                    android:textSize="20dp"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/colorPrimaryDark"/>
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

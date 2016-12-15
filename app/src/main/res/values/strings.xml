@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LugaresGandia</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_maps_activity_bayren">Map</string>
+    <string name="title_activity_maps_activity_colegiata">Map</string>
+    <string name="title_activity_maps_activity_vital">Map</string>
+</resources>
